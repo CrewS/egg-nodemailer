@@ -36,7 +36,7 @@ $ npm i egg-nodemailer --save
 // {app_root}/config/plugin.js
 exports.nodemailer = {
   enable: true,
-  package: 'egg-nodemailer',
+  package: 'egg-nodemail',
 };
 ```
 

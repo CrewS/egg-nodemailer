@@ -1,6 +1,6 @@
 {
-  "name": "egg-nodemailer",
-  "version": "1.0.0",
+  "name": "egg-nodemail",
+  "version": "1.0.1",
   "description": "",
   "eggPlugin": {
     "name": "nodemailer"

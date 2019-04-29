@@ -49,15 +49,27 @@ egg-nodemailer 版本 | egg 1.x
 // config/plugin.js
 exports.nodemailer = {
   enable: true,
-  package: 'egg-nodemailer',
+  package: 'egg-nodemail',
 };
 ```
 
 ## 使用场景
 
 - Why and What: 描述为什么会有这个插件，它主要在完成一件什么事情。
+
 封装nodemailer，使用第三方邮箱服务器发送邮件。
 - How: 描述这个插件是怎样使用的，具体的示例代码，甚至提供一个完整的示例，并给出链接。
+
+```js
+// config/plugin.js'
+// ...
+nodemailer: {
+  enable: true,
+  package: 'egg-nodemail',
+}
+//...
+```
+
 ```js
 // config/config.default.js
 // 配置邮箱服务器的账号信息
